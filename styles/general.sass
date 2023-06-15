@@ -1,0 +1,132 @@
+header
+    height: 300px
+    padding: 15px 30px
+    background: linear-gradient(152deg, transparent, #dbfff3)
+    .header_content
+        width: 100%
+        max-width: 1250px
+        margin: auto
+        display: flex
+        flex-direction: column
+        justify-content: space-between
+    .title
+        width: 50%
+        font-size: 40px
+        font-transform: uppercase
+    .topNav
+        display: flex
+        justify-content: space-between
+        align-items: center
+
+        ul
+            display: flex
+            text-decoration: none
+            list-style: none
+            gap: 15px
+            li
+                font-weight: 600
+                font-size: 1rem
+
+footer
+    background-color: #333
+    color: #fff
+    padding: 20px
+    text-align: center
+
+main
+    width: 100%
+    max-width: 1250px
+    margin: auto
+    padding: 80px 30px
+    min-height: 550px
+
+.home_body
+    display: flex
+    flex-direction: column
+    .card
+        display: flex
+        flex-direction: row
+        gap: 30px
+        justify-content: center
+        align-content: center
+        align-items: center
+        &:nth-child(even)
+            direction: rtl
+        .image
+            width: 40%
+            padding: 20px
+        .content
+            width: 50%
+            padding: 20px
+
+.about_us_list
+    padding: 0px 15px 0px 30px
+    display: flex
+    flex-direction: column
+    list-style: none
+
+.events_page
+    display: flex
+    flex-direction: row
+    justify-content: center
+    gap: 40px
+    padding-right: 20px
+    .card
+        position: relative
+        h2
+            position: absolute
+            width: 100%
+            top: 50%
+            test-align: center
+            font-size: 34px
+            padding: 10px
+            text-transform: uppercase
+            color: white
+            text-shadow: 1px 1px 20px black
+
+.cat_events
+    width: 100%
+    .content
+        display: flex
+        flex-direction: row
+        flex-wrap: wrap
+        gap: 30px
+        width: 100%
+        justify-content: flex-start
+        .card
+            display: flex
+            flex-direction: column
+            width: 30%
+
+.event_single_page
+    .email_registration
+        margin-top: 15px
+        label
+            display: block
+            margin-top: 16px
+            margin-bottom: 8px
+            font-size: 1.2rem
+            font-weight: 800
+        input
+            margin-top: 15px
+            margin-bottom: 16px
+            height: 40px
+            min-width: 350px
+            box-shadow: none
+            border-radius: 5px
+            border: 1px solid #ccc
+            font-size: 1rem
+        button
+            border-radius: 5px
+            height: 40px
+            min-width: 150px
+            border: 1px solid #b4b4b4
+            font-size: 1rem
+            background-color: #77ffd2
+            margin-left: 10px
+            font-weight: 600
+            cursor: pointer
+            &:hover
+                background-color: #dbfff3
+                color: #000
+                border: none
