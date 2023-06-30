@@ -2,7 +2,7 @@
 
 Description:
 
--Events application built with Next.js 
+-Events application built with Next.js, using Sass and CSS. 
 
 Video Summary:
 
