@@ -1,6 +1,7 @@
 # Events-Application
 
 Description:
+
 -Events application built with Next.js 
 
 Video Summary:
